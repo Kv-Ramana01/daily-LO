@@ -3,7 +3,7 @@ name: Open link daily
 on:
   schedule:
     # 8:00 PM IST = 14:30 UTC
-    - cron: '34 13 * * *'
+    - cron: '41 13 * * *'
   workflow_dispatch:
 
 jobs:
@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Open the link
         run: |
-          curl -L https://erp.silicon.ac.in/estcampus/hostel/db_hostel_attendance.php?oper=CHECK_HOSTEL_ATTENDANCE&studentId=23BCSD42
+          curl -L https://erp.silicon.ac.in/estcampus/hostel/db_hostel_attendance.php?oper=CHECK_HOSTEL_ATTENDANCE&studentId=23BEEG42
 
   
