@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Open the link
         run: |
-          curl -L https://erp.silicon.ac.in/estcampus/hostel/db_hostel_attendance.php?oper=CHECK_HOSTEL_ATTENDANCE&studentId=23BCSB83
+          curl -L https://erp.silicon.ac.in/estcampus/hostel/db_hostel_attendance.php?oper=CHECK_HOSTEL_ATTENDANCE&studentId=23BCSD42
 
   
